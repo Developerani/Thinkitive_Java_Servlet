@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper light-blue lighten-1">
+            <a class="brand-logo center">Assignment Thinkitive</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col s3">
+            </div>
+            <div class="col s6" style="margin-top: 30px;">
+                <div class="card darken-1">
+                    <div class="card-content white-text">
+                    	<form method="POST" action="signup">
+                        <div class="input-field">
+                            <input placeholder="Username" id="username" name="username" type="text" class="validate">
+                            <label for="username">username</label>
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="Email" id="email" name="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="Password" id="password" name="password" type="password" class="validate">
+                            <label for="password">password</label>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit">signup
+                            <i class="material-icons right">send</i>
+                        </button>
+                        <p><a href="/Java_Servlet_Assignment/login">Have a account? go to Login</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
